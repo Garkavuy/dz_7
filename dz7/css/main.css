@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/1640356115_3-funart-pro-p-foni-dlya-stranits-na-saiti-3.jpg);
+    background-size: cover;
+}
+
+.cards {
+    margin: 50px 0;
+}
+
+.card {
+    background: #faf5f5;
+    border-radius: 16px;
+    box-shadow: 2px 2px 16px #000;
+    text-align: center;
+}
+
+.cards>li {
+    padding: 0 16px 32px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+    width: calc(100% / 3);
+}
+
+.card_visual {
+    display: block;
+    margin: 0 0 15px;
+}
+
+.card_content {
+    padding: 0 25px 25px;
+}
